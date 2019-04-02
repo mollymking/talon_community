@@ -101,9 +101,9 @@ context.keymap(
     {
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "copy url": Key("escape y y"),
-        "go back": back,
-        "go forward": forward,
-        "reload": Key("cmd-r"),
+        "(go back | baxley)": back,
+        "(go forward | forthly)": forward,
+        "(reload | freshly)": Key("cmd-r"),
         "hard reload": Key("cmd-shift-r"),
         "new tab": Key("cmd-t"),
         "close tab": Key("cmd-w"),
