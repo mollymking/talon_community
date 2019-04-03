@@ -49,10 +49,10 @@ symbols = normalise_keys(
 
 modifiers = normalise_keys(
     {
-        "command": "cmd",
+        "(command | chom)": "cmd",
         "(control | troll)": "ctrl",
-        "(shift | sky)": "shift",
-        "(alt | option)": "alt",
+        "(shift | sky | chiff)": "shift",
+        "(alt | option | crop)": "alt",
     }
 )
 
