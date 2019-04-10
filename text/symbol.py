@@ -35,6 +35,7 @@ keymap = {
     "triple tick": "```",
     "[forward] dubslash": "//",
     "coal twice": "::",
+    "doosh": ". ",
     "(dot dot | dotdot)": "..",
     "(ellipsis | dot dot dot | dotdotdot)": "...",
     # unnecessary: use repetition commands?
