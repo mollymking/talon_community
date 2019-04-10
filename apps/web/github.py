@@ -1,7 +1,7 @@
 import time
 import re
 
-from talon import clip
+from talon import ui, clip
 from talon.voice import Context, Key, press
 
 from . import browser
