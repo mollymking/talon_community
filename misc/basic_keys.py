@@ -2,8 +2,8 @@ from talon.voice import Context, press, Key
 import string
 from ..utils import normalise_keys, insert
 
-# alpha_alt = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split()
-alpha_alt = "alpha brov char dell etch fomp goof hark ice jinks koop lug mowsh nerb ork pooch quash rosh sook teek unks verge womp trex yang zooch".split()
+alpha_alt = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split()
+#alpha_alt = "alpha brov char dell etch fomp goof hark ice jinks koop lug mowsh nerb ork pooch quash rosh sook teek unks verge womp trex yang zooch".split()
 alphabet = dict(zip(alpha_alt, string.ascii_lowercase))
 
 f_keys = {f"F {i}": f"f{i}" for i in range(1, 13)}
