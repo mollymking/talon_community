@@ -99,7 +99,7 @@ def mendeley(m):
 
 context.keymap(
     {
-        "(address bar | focus address | focus url | url)": focus_address_bar,
+        "(address bar | focus address | focus url | url | curly)": focus_address_bar,
         "copy url": Key("escape y y"),
         "(go back | baxley)": back,
         "(go forward | forthly)": forward,
