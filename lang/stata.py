@@ -1,7 +1,7 @@
 import time
 from talon.voice import  Context, Key, Str, press
 
-from ..utils import is_filetype
+from ..utils import is_filetype, normalise_keys, surround
 
 FILETYPES = (".do")
 
@@ -17,5 +17,12 @@ ctx.keymap(
         "comment start":[Key("/ *")],
         "comment end":[Key("* /")],
         "section break":[Key("* * * - - - - - - - - - - - - - - - - - - - - - - - - - - * * *")],
+    }
+)
+
+
+surrounders = normalise_keys(
+    {
+        "comment out": (False, surround("/*", "*/")),
     }
 )

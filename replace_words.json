@@ -41,7 +41,6 @@
     "gretzky":"grusky",
     "claimant":"clayman",
     "corel":"correll",
-    "Angel":"Angell",
     "hence":"hints",
     "4 do":"Bourdieu",
     "For do":"Bourdieu",
@@ -60,5 +59,8 @@
     "cinco":"five",
     "seis":"six",
     "diez":"ten",
-    "tork":"too"
+    "tork":"too",
+
+    "run code": "shift-cmd-d",
+    "slashy": "///"
 }
