@@ -25,8 +25,6 @@
     "trundle": "tridal",
 
     "log it's": "logits",
-    "wright": "write",
-    "right": "write",
     "d string": "destring",
 
     "correcto": "C_",
@@ -39,7 +37,6 @@
     "henrique":"enrique",
     "jevon": "jevin",
     "gretzky":"grusky",
-    "claimant":"clayman",
     "corel":"correll",
     "hence":"hints",
     "4 do":"Bourdieu",
@@ -62,5 +59,8 @@
     "tork":"too",
 
     "run code": "shift-cmd-d",
-    "slashy": "///"
+    "slashy": "///",
+
+    "claimant": "climate",
+    "sage enter": "say gender"
 }
